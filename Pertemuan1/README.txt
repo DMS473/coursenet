@@ -14,3 +14,45 @@ masuk ke praktek
     - rm "Nama File" = remove the file (rm "index.html") 
         * rm -rf "Nama Folder" = remove folder (rm -rf "belajar-direktory")
     - touch = membuat file (rm "index.html")
+    - (mv "Nama Folder yang maudipindahkan" *"folder tujuan")= memindahkan folder
+    - git remote add link= membuat remote (git remote add origin git@github.com:DMS473/fs-januari.git)
+        * git remote rm origin = meghapus remote
+        * git remote -v = menampilkan list remote
+    
+    
+5 peraturan umum 
+    - snake-case = pakai strip biasanya untuk repo (repo-baru)
+    - PASCAL CASE = semuanya kapital biasanya untuk nama class (MAHASISWA)
+    - CamelCase = huruf besar di awal kata (JumlahSisi)
+
+6. inisiasi repo git
+   cara 1 = membuat sebuah repo di github lalu mengclone
+   - membuat sebuah repo di github
+   - gunakan perintah (git clone git@github.com:DMS473/my-resolusi.git)
+   - edit repo dengan menambahkan file
+   - git add .
+   - git commit -m "menambahkan file"
+   - (tidak perlu inisiasi remote jika cloning dari github)
+   - git push
+
+   cara 2 = membuat folder di lokal lalu diubah menjadi repo lalu push ke github
+   - buat folder dan filenya
+   - inisiasi folder menjadi repo dengan = (git init)
+   - git add .
+   - git commit -m "inisiasi repo"
+   - git remote add origin main
+   - git push origin main
+
+   cara git branch "main and master are entirely different commit histories."
+   - git checkout master  
+   - git branch main master -f   
+   - git checkout main 
+   - git push origin main -f 
+
+   git branch
+   - git checkout -b nama_branch = membuat branch baru (git checkout -b fitur1)
+   - git checkout nama_branch = pindah ke branch (git checkout fitur1)
+
+   git merge 
+   - git merge brach_anakan = (posisi harus di main branch) menyatukan branch anak ke utama
+
