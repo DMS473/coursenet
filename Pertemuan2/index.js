@@ -25,3 +25,49 @@ if(score >= 85 && score <= 100){
 } else {
     console.log("Inputan diluar nalar")
 }
+
+// Switch case 
+// var angka = 90;
+// switch(true) {
+//     case (angka<=100):
+//       console.log("GRADE A")
+//       break;
+//     case (angka>100):
+//       console.log("GRADE S")
+//       break;
+//     default:
+//         console.log("DILUAR NALAR")
+//   } 
+
+
+// C. Study Case 2
+let harga = 750000
+let promo = "Discount10%"
+var diskon;
+var result = 0;
+
+switch(promo) {
+    case "Discount10%":
+        if (harga >= 500000) {
+            result = harga * 9 / 10
+        } else if (harga >= 300000) {
+            result = harga * 95 / 100
+        } else if (harga < 300000) {
+            result = harga * 975 / 1000
+        }
+      break;
+
+    case "DiscountHarbolnas":
+        if (harga >= 250000) {
+            result = harga * 85 / 100
+        } else if (harga < 250000) {
+            result = harga 
+        }
+      break;
+    // default:
+    //   console.log("DILUAR NALAR")
+} 
+
+console.log(result)
+
+
