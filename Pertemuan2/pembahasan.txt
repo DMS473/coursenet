@@ -1,1 +1,14 @@
 alur hal yang dibahas di pertemuan ke 2
+
+1. pembukaan materi yang akan dibahas di pertemuan ke 2
+    - algortima 
+      * Penjabaran masalah
+      * Pemecahan masalah secara bertahap
+      * Kesimpulan Solusi
+
+    - pseudocode
+      * 
+
+    - codingan
+
+2. praktek algortima, pseudocode, codingan
