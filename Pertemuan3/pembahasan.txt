@@ -1,0 +1,7 @@
+alur hal yang dibahas di pertemuan ke 3
+
+1. pembukaan materi yang akan dibahas di pertemuan ke 3
+   - latihan di pertemuan sebelumnya 
+   - looping
+
+2. praktek looping, push(), pop(), tenary operator
