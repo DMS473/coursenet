@@ -2,6 +2,20 @@ alur hal yang dibahas di pertemuan ke 4
 
 1. pembahasan array dengan built in function
 
+2. functon array dengan for each
+    - for each digunakan ketika akan melakukan sebuah perintah/ function di setiap value array nya
+    = melakukan sebuah function di setiap value array
+
+    for of digunakan untuk output biasa tanpa perintah function
+    = menampilkan value setiap array
+    = dapat digunakan untuk 2 dimensional array
+
+3. output 2 dimensional array dengan for of
+
+4. memisahkan sebuah string menjadi substring
+    = menggunakan substring, indexOf
+
+5. menggunakan fungtion sederhana
 
 
 
