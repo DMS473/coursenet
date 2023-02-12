@@ -1,0 +1,46 @@
+alur hal yang dibahas di pertemuan ke 5
+
+1. penjelasan ecma script (ES6) 
+    - perbedaan var, let, const
+    - macam macam cara membuat function
+        = function Declaration
+        = function Expression
+        = function Arrow
+            * tulisan "function" diganti dengan Arrow
+            // function Expression
+            const tambah = function () {
+                return a+b;
+            }
+            // arrow function
+            const tambah = (a,b) => a + b;
+    
+    - High order function
+    // Built in function untuk array
+    .forEach()
+    = function didalam forEach terdapat 2 parameter yaitu:
+    1. element untuk value dari array ataupun object
+    2. index untuk index dari array ataupun object
+
+    .filter()
+    .map()
+
+
+2. CRUD data berupa array of objects
+    - getItem
+    - addItem
+    - deleteItem
+    - updateItem
+
+
+.split() = string to array
+
+.map = array to object
+
+
+3. OOP 
+
+    - DATA CSV TO array
+    - ARRAY TO OBJECT
+    - OBJECT GET, UPDATE, DELETE, ADD
+    - OBJECT TO ARRAY
+    - ARRAY TO CSV
