@@ -56,3 +56,8 @@ masuk ke praktek
    git merge 
    - git merge brach_anakan = (posisi harus di main branch) menyatukan branch anak ke utama
 
+
+7. mengakses file system atau perintah
+    /(nama) = masuk ke file atau folder
+    . = mundur atau naik ke folder atas
+

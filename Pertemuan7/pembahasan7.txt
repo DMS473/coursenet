@@ -1,0 +1,43 @@
+pembahasan di pertemuan ke 7
+
+1. latihan menggunakan data.json 
+
+
+
+2. menghubungkan index.js ke data.json 
+        . untuk mundur ke folder atas nya
+        / untuk masuk ke folder atau nama file
+    + menggunakan fs.readFileSync("./data.json", "utf-8")
+        - data yang diambil dari fs.read merupakan objek dalam bentuk "string"
+        - sehingga data perlu diubah ke bentuk json
+        - menggunakan syntax JSON.parse(fs.readFileSync("./data.json", "utf-8"))
+
+
+    + menggunakan fs.writeFileSync("./data.json)
+        - untuk menulis ulang file di data.json, maka data harus dalam bentuk string
+        
+        - menggunakan syntax JSON.stringify(vehicles,null,2);
+
+==============================
+part 2 ( sesi ke 2)
+
+Definisi MVC (model view Controller)
+pembagian pembagian, full stack developer
+
+1. utama full stack MERN
+        - MongoDB
+        - Express JS
+        - React JS
+        - NodeJS
+
+2. yang akan di pelajari PERN
+        - PostgreSQL
+        - Express JS
+        - React JS
+        - NodeJS
+
+3. alur software development cycle
+    testing alpha = oleh programer lain
+    testing beta = oleh end user
+
+    

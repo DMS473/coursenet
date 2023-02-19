@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Civic 2023",
+    "type": "sedan",
+    "brand": "honda",
+    "price": 10000
+  },
+  {
+    "id": 2,
+    "name": "Box Car 2023",
+    "type": "truck",
+    "brand": "colt",
+    "price": 150000
+  },
+  {
+    "id": 3,
+    "name": "Dai Rocky 2023",
+    "type": "suv",
+    "brand": "daihatsu",
+    "price": 35000
+  },
+  {
+    "id": 4,
+    "name": "Dky 2023",
+    "type": "suv",
+    "brand": "hatsu",
+    "price": 30000
+  },
+  {
+    "id": 7,
+    "name": "Dky 2023",
+    "type": "suv",
+    "brand": "hatsu",
+    "price": 30000
+  }
+]
