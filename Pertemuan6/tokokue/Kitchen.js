@@ -77,6 +77,7 @@ class Kitchen{
  
     sortCookies(type){
         // this.container = this.container.map()
+        console.log(this.container);
         switch(type){
             case "asc":
                 this.container = this.container.sort((a,b) => a.price - b.price);
@@ -86,6 +87,7 @@ class Kitchen{
                 break;
 
         }
+        console.log(this.container);
     }// end sortCookies method
 
     categoriesCookies(){

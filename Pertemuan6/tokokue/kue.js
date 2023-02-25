@@ -17,8 +17,8 @@ kitchen.bake(5, "Berry Cake", 50000, ["Pepper", "Strawberry", "Butter"], "Strawb
 // kitchen.addSugar(2);
 
 
-
-kitchen.showCookies();
+kitchen.sortCookies("asc");
+// kitchen.showCookies();
 
 // kitchen.addIngredient(2, "Baking ")
 
