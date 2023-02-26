@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "ASUS ROG Phone",
+        "type": "phone",
+        "price": 100000,
+        "stock": 10,
+        "image": "http://youtube.com"
+    },
+    {
+        "id": 2,
+        "name": "Samsung Phone",
+        "type": "phone",
+        "price": 200000,
+        "stock": 13,
+        "image": "http://youtube.com"
+    },
+    {
+        "id": 3,
+        "name": "MSI Zenfone",
+        "type": "laptop",
+        "price": 800000,
+        "stock": 5,
+        "image": "http://youtube.com"
+    },
+    {
+        "id": 4,
+        "name": "TUF X-series",
+        "type": "laptop",
+        "price": 999000,
+        "stock": 7,
+        "image": "http://youtube.com"
+    },
+    {
+        "id": 5,
+        "name": "Samsung S Tab-5",
+        "type": "tablet",
+        "price": 890000,
+        "stock": 6,
+        "image": "http://youtube.com"
+    }
+]

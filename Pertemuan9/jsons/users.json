@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "username": "Daffa",
+        "email": "daffa@gmail.com",
+        "password": "12345",
+        "image": "http://google.com"
+    },
+    {
+        "id": 2,
+        "username": "Muis",
+        "email": "muis@gmail.com",
+        "password": "12345",
+        "image": "http://google.com"
+    },
+    {
+        "id": 3,
+        "username": "Damus",
+        "email": "damus@gmail.com",
+        "password": "12345",
+        "image": "http://google.com"
+    }
+]
