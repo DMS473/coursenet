@@ -5,7 +5,7 @@
         "type": "phone",
         "price": 100000,
         "stock": 10,
-        "image": "http://youtube.com"
+        "image": "http://via.placeholder.com/150"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "type": "phone",
         "price": 200000,
         "stock": 13,
-        "image": "http://youtube.com"
+        "image": "http://via.placeholder.com/150"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "type": "laptop",
         "price": 800000,
         "stock": 5,
-        "image": "http://youtube.com"
+        "image": "http://via.placeholder.com/150"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "type": "laptop",
         "price": 999000,
         "stock": 7,
-        "image": "http://youtube.com"
+        "image": "http://via.placeholder.com/150"
     },
     {
         "id": 5,
@@ -37,6 +37,6 @@
         "type": "tablet",
         "price": 890000,
         "stock": 6,
-        "image": "http://youtube.com"
+        "image": "http://via.placeholder.com/150"
     }
 ]

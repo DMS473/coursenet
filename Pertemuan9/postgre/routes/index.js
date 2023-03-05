@@ -2,7 +2,8 @@ const {Router} = require("express")
 const router = Router();
 
 router.get("/", (req, res) => {
-  res.send("Hello Selamat Pagi");
+  // res.send("Hello Selamat Pagi");
+  res.render('home.ejs')
 });
 
 const usersRoutes = require("./users.js")

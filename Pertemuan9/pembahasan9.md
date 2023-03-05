@@ -55,3 +55,11 @@ a. Generate file seeder
 b. Menjalankan Seeder
 
     npx sequelize-cli db:seed:all
+
+    npx sequelize-cli db:seed --seed namafile.js
+
+c. undo
+
+    npx sequelize-cli db:migrate:undo
+
+    npx sequelize-cli db:seed:undo:all
