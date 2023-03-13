@@ -12,7 +12,9 @@ class FruitController {
           ]
       })
 
-      res.json(fruits)
+      // res.json(fruits)
+      res.render('./fruits/fruits.ejs', {fruits})
+
   } catch(err){
       res.json(err)
   }
@@ -38,7 +40,7 @@ class FruitController {
 
   static async add(req, res) {
     try {
-      const { name, price, stock } = req.body
+      const { name, price, stock, CategorieId, BrandId } = req.body
       const image = "http://via.placeholder.com/150"
 
       let result = await Fruit.create({
@@ -46,6 +48,8 @@ class FruitController {
         image,
         price,
         stock,
+        CategorieId,
+        BrandId
       })
 
       res.json(result)

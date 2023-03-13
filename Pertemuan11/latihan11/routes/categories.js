@@ -9,4 +9,7 @@ routes.post("/add", categorieController.add);
 
 routes.get("/delete/:id", categorieController.delete);
 
+routes.get("/update", categorieController.updatePage);
+routes.post("/update/:id", categorieController.update);
+
 module.exports = routes;

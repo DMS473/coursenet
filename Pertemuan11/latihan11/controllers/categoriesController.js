@@ -67,6 +67,29 @@ class CategorieController {
         res.send(err);
       });
   }
+
+  static updatePage(req, res) {
+    res.send("halaman update page categories");
+  }
+  static async update(req, res) {
+    try {
+      let id = +req.params.id;
+      const { name } = req.body;
+
+      let result = await Categorie.update(
+        {
+          name,
+        },
+        {
+          where: { id },
+        }
+      );
+      res.json(result);
+    } catch (err) {
+      res.json(err);
+    }
+  }
+  
 }
 
 module.exports = CategorieController;

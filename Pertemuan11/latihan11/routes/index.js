@@ -3,7 +3,8 @@ const routes = Router();
 
 // console.log(router);
 routes.get("/", (req, res) => {
-  res.send("Hello World! HOME");
+  // res.send("Hello World! HOME");
+  res.render("main.ejs");
 });
 
 const fruitsRoute = require("./fruits.js");

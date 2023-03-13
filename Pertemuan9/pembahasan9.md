@@ -30,7 +30,7 @@ a. Buat init terlebih dahulu
 
 b. Buat database 
 
-    npx seqielize-cli db:create
+    npx sequelize-cli db:create
 
 c. Buat _model_
 
