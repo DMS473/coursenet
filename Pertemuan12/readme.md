@@ -25,6 +25,7 @@ b. Buat backend folder
     buat folder (routes, controllers, middlewares, helpers)
 
 ### create database
+    npx sequelize-cli init
     npx sequelize-cli db:create
 
 ### create model
