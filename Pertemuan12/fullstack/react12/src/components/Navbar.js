@@ -1,14 +1,15 @@
 import React from "react";
 import { AiFillBulb } from "react-icons/ai";
+import { Link} from "react-router-dom"
 
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand logo" href="/">
+        <Link className="navbar-brand logo" to="/">
           <AiFillBulb/>
           Navbaris
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,15 +23,18 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-item nav-link active" href="/">
+            <Link className="nav-item nav-link active" to="/">
               Home <span class="sr-only">(current)</span>
-            </a>
-            <a className="nav-item nav-link" href="/">
-              Features
-            </a>
-            <a className="nav-item nav-link" href="/">
-              Pricing
-            </a>
+            </Link>
+            <Link className="nav-item nav-link" to="/products">
+              Product
+            </Link>
+            <Link className="nav-item nav-link" to="/users">
+              User
+            </Link>
+            <Link className="nav-item nav-link" to="/brands">
+              Brand
+            </Link>
           </div>
         </div>
       </nav>
