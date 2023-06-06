@@ -8,7 +8,7 @@
 ## folder front-end react
 a. Buat react interface 
 
-    npm create-react-app interface
+    npx create-react-app interface
     cd interface
     npm install bootstrap react-icons axios react-router-dom
 
