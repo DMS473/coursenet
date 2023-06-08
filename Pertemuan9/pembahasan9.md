@@ -36,7 +36,7 @@ c. Buat _model_
 
     npx sequelize-cli model:generate --name User --attributes username:string,email:string,password:string,image:string
 
-    npx sequelize-cli model:generate --name Item --attributes name:string,category:string,price:number,stock:number,image:string
+    npx sequelize-cli model:generate --name Item --attributes name:string,category:string,price:integer,stock:number,image:string
 
 d. Migrate
 
